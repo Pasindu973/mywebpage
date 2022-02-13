@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #CAF0F8;
+    padding-top: 100px;
+}
+#top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 150px;
+}
+header h1{
+    font-family:'Sacramento', cursive, sans-serif;
+    margin: 0;
+    font-size: 70px;
+    color:#03045E;
+    text-align: center;
+}
+header p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: #03045E;
+    text-align: center;
+}
+#bottom-cloud{
+    position: relative;
+    left: 200px;
+}
+#mountain-image{
+    text-align: center;
+}
+#mountain-image img{
+    position: relative;
+    top:5px;
+}
+main{
+    padding: 100px 0 80px;
+    background-color: #e2bcff;
+}
+#introduction{
+    text-align: center;
+}
+#my-self{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+#introduction h2{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #03045E;
+    font-size: 35px;
+}
+#introduction p{
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    color: #545454;
+    font-size: 20px;
+}
+hr{
+    width: 5%;
+    border-width: 5px 0 0 0;
+    border-style: dotted;
+    border-color: grey;
+}
+#skills-heading h2{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #03045E;
+    margin-bottom: 50px;
+}
+.my-skills{
+    width: 50%;
+    margin: 70px auto 150px;
+}
+#coding-image{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 30px;
+}
+#green-heading{
+    color: #1cb81c;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.my-skills p{
+    color: #545454;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+}
+#chilli-image{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+#red-heading{
+    color: #BE0000;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact-me{
+    margin-top: 100px;
+    text-align: center;
+}
+.contact-me h2{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #03045E;
+    font-size: 40px;
+}
+.contact-me h3{
+    color: #03045E;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact-me p{
+    color: #545454;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-bottom: 60px;
+}
+.btn{
+    background-color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #11cdd4;
+}
+footer{
+    padding: 50px;
+    background-color: #66BFBF;
+} 
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+}
+footer li{
+    margin: 0 50px;
+}
+footer li a{
+    font-family: 'Merriweather',serif;
+    color:#11999E;
+    text-decoration: none;
+    font-style: italic;
+}
+footer p{
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+}
